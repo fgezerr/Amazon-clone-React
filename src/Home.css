@@ -13,3 +13,18 @@
     z-index: 1;
     margin:0 5px;
 }
+
+@media screen and (max-width: 500px) {
+    .home{
+        align-items: center;
+    }
+    .home__row{
+        flex-direction: column;
+        display: flex;
+        width: 80%;
+    }
+    .home__image{
+        margin-top: 58.42px;
+        margin-bottom: -60px;
+    }
+}
